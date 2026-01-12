@@ -1,0 +1,27 @@
+@import url('./intro.css');
+@import url(./case1.css);
+@import url(./case2.css);
+@font-face {
+  font-family: "Raleway";
+  src:
+    url("/fonts/Raleway-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src:
+    url("/fonts/Raleway-Medium.woff2") format("woff2");
+  font-weight: 500;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0 52px 0 52px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
