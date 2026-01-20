@@ -1,0 +1,33 @@
+.about {
+    display: flex;
+}
+
+.about_pic {
+    background-color: #EDF0F2;
+    border-radius: 207px;
+    width: 513px;
+    height: 758px;
+}
+
+.about_content {
+    margin-left: 75px;
+    max-width: 1228px;
+}
+
+.about_title {
+    font-weight: 500;
+    font-size: 40px;
+    opacity: .5;
+    color: black;
+    margin: 0 0 22px 0;
+}
+
+.about_text {
+    font-weight: 400;
+    font-size: 60px;
+    margin: 0 0 58px 0;
+}
+
+.about_text:last-child {
+    margin: 0;
+}

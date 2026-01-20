@@ -1,7 +1,7 @@
 .case1 {
     background-color: rgba(53, 56, 61, 0.31);
     border-radius: 48px;
-    margin-top: 121px;
+    margin-top: 120px;
     margin-bottom: 120px;
     padding: 52px;
 }
@@ -11,6 +11,10 @@
     justify-content: space-between;
     font-size: 24px;
     font-weight: 400;
+}
+
+.case1_header-text {
+    margin: 0;
 }
 
 .case1_main {
@@ -66,4 +70,51 @@
 
 .case1_main-pic {
     max-width: 352.89px;
+}
+
+.case2 {
+    background-color: rgba(187, 191, 201, 0.23);
+    border-radius: 48px;
+    margin-top: 0;
+    margin-bottom: 120px;
+    padding: 52px;
+}
+
+.case2_main-pic {
+    max-width: 1024px;
+}
+
+.case3 {
+    background-color: rgba(53, 56, 61, 1);
+    border-radius: 48px;
+    margin-top: 0;
+    margin-bottom: 120px;
+    padding: 52px;
+    color: white;
+}
+
+.case3_main-left-table-string {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.case3_main-left-table-string:nth-child(2) {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.case3_main-pic {
+    max-width: 1057.5px;
+    height: 705px;
+}
+
+.case4 {
+    background-color: #EDF0F2;
+    border-radius: 48px;
+    margin-top: 0;
+    margin-bottom: 120px;
+    padding: 52px;
+    color: black;
 }

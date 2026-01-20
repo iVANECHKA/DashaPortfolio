@@ -1,6 +1,7 @@
 @import url('./intro.css');
-@import url(./case1.css);
-@import url(./case2.css);
+@import url(./case.css);
+@import url(./exp.css);
+@import url(./about.css);
 @font-face {
   font-family: "Raleway";
   src:
