@@ -1,13 +1,15 @@
-gsap.registerPlugin(ScrollTrigger);
+const swiper = new Swiper(".swiper", {
+  direction: "vertical",
+  loop: false,
+  mousewheel: true,
+  speed: 1000,
 
-gsap.to(".case1_main-pic", {
-    rotation: 360,
-    x: 400,
-    scrollTrigger: {
-        trigger: ".case1",
-        start: "top top",
-        end: "+=100%",
-        scrub: true,
-        pin: true
-    }
+  pagination: {
+    el: ".swiper-pagination",
+  },
+  mousewheel: {
+    forceToAxis: true,
+    sensitivity: 1,
+    releaseOnEdges: true,
+  },
 });

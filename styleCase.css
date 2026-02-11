@@ -1,0 +1,36 @@
+@import url(./stylesCase/header.css);
+@import url(./stylesCase/intro.css);
+@import url(./stylesCase/problem.css);
+@import url(./stylesCase/example.css);
+@import url(./stylesCase/first.css);
+
+@font-face {
+  font-family: "Raleway";
+  src:
+    url("/fonts/Raleway-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src:
+    url("/fonts/Raleway-Medium.woff2") format("woff2");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Inter";
+  src:
+    url("/fonts/Inter-Regular.otf") format("otf");
+  font-weight: 400;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 52px 52px 0 52px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

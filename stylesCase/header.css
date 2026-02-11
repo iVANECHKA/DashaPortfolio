@@ -1,0 +1,24 @@
+.menu {
+    font-weight: 500; 
+    font-size: 24px;   
+}
+
+.menu_list {
+    display: flex;
+    margin-top: 52px;
+    justify-content: space-between;
+}
+
+.menu_center {
+    display: flex;
+    gap: 48px;
+    margin-left: 306px;
+}
+
+.menu_item {
+    margin: 0;
+}
+
+.menu_container {
+    display: flex;
+}

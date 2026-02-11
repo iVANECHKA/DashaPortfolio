@@ -1,7 +1,7 @@
-@import url('./styles/intro.css');
-@import url(./styles/case.css);
-@import url(./styles/exp.css);
-@import url(./styles/about.css);
+@import url('./stylesIndex/intro.css');
+@import url(./stylesIndex/case.css);
+@import url(./stylesIndex/exp.css);
+@import url(./stylesIndex/about.css);
 @font-face {
   font-family: "Raleway";
   src:
@@ -18,7 +18,7 @@
 
 body {
     font-family: 'Raleway', sans-serif;
-    margin: 0 52px 0 52px;
+    margin: 52px 52px 0 52px;
 }
 
 a {

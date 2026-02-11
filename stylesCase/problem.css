@@ -1,0 +1,34 @@
+.problem {
+    margin-top: 150px;
+}
+
+.problem_problem {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+
+.problem_task {
+    display: flex;
+    justify-content: space-between;
+}
+
+.problem_title {
+    margin: 0;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.problem_problem-text {
+    margin: 0;
+    font-weight: 500;
+    font-size: 54px;
+    max-width: 1052px;
+}
+
+.problem_task-text {
+    margin: 0;
+    font-weight: 500;
+    font-size: 32px;
+    max-width: 1052px;
+}

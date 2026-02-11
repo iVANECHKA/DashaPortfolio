@@ -1,0 +1,109 @@
+.swiper {
+    width: 1600px;
+    height: 600px;
+    border-radius: 38px;
+}
+
+.swiper-slide {
+    width: 400px;
+    height: 400px;
+}
+
+.swiper-slide:nth-child(1) {
+    background-image: url(../images/capital/capital-pic4.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.swiper-slide:nth-child(2) {
+    background-image: url(../images/capital/Framer.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.swiper-slide:nth-child(3) {
+    background-image: url(../images/capital/Tilda.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.first {
+  margin-top: 150px;
+}
+
+.first_intro {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first_intro-title {
+  margin: 0 0 48px 0;
+  font-weight: 500;
+  font-size: 54px;
+  max-width: 625px;
+}
+
+.first_intro-text {
+  margin: 0;
+  font-weight: 500;
+  font-size: 32px;
+  max-width: 625px;
+}
+
+
+.first_intro-img-wrapper {
+  background-color: #f1f3f7;
+  border-radius: 43px;
+  padding: 65px 285px 65px 300px;
+  overflow: hidden;
+}
+
+.first_intro-slide {
+  width: 465px;
+  height: 767px;
+}
+
+/* .s1 {
+  background-image: url(../images/capital/capital-pic4.svg);
+}
+
+.s2 {
+  background-image: url(../images/capital/capital-pic4.svg);
+}
+
+.s3 {
+  background-image: url(../images/capital/capital-pic4.svg);
+} */
+
+.first_problem {
+  display: flex;
+  margin-top: 150px;
+  justify-content: space-between;
+}
+
+.first_problem-title {
+  margin: 0;
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.first_problem-text {
+  margin: 0;
+  font-weight: 500;
+  font-size: 54px;
+  max-width: 1050px;
+}
+
+.first_galary {
+  margin-top: 120px;
+  justify-content: center;
+}
+
+.first_galary-img {
+  margin-right: 30px;
+  max-width: 271px;
+}
+
+.first_galary-img:last-child {
+  margin-right: 0;
+}

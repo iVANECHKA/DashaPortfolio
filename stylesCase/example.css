@@ -1,0 +1,17 @@
+.example {
+    margin-top: 150px;
+}
+
+.example_wrapper {
+    width: 1817px;
+    height: 842px;
+    border-radius: 48px;
+    background-color: #F1F3F7;
+}
+
+.example_text {
+    font-weight: 500;
+    font-size: 32px;
+    margin: 58px 0 0 752px;
+    max-width: 934px;
+}
